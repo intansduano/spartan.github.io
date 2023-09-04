@@ -1,0 +1,117 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul, aside, a {
+    list-style-type: none;
+    text-decoration: none !important;
+    padding-bottom: 10px;
+}
+
+th {
+    background-color: #a69288;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+h1, p, h2, h3, a{
+    color: rgb(27, 27, 27);
+}
+
+aside {
+    padding: 20px;
+    position: relative;
+}
+
+.img-fluid{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+        
+}
+
+.logo {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 2000px;
+        /* Adjust the maximum width as needed */
+        margin: 0 auto;
+        /* Center the container horizontally */
+        padding: 5px;
+        /* Add padding to the container */
+        box-sizing: border-box;
+        border: 0;
+}
+
+th, td, td{
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ .container1 {
+     display: flex;
+     align-items: center;
+     /* Vertically center items */
+     justify-content: center;
+     /* Horizontally center items */
+     height: 30vh;
+     /* Center content within the viewport */
+     text-align: center;
+     /* Center text inside the container */
+ }
+
+ .text {
+    text-transform: uppercase;
+     flex-grow: 1;
+     /* Allow text to grow and fill available space */
+ }
+
+ .image {
+     margin-right: 20px;
+     /* Add space between text and image */
+ }
+
+.merch{
+    width: 30%;
+    padding: 20px;
+}
+
+.article-container {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight:400;
+    margin-bottom: 10px;
+}
+
+.article-text {
+    font-size: 16px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.galeri {
+    width: 10;
+    padding: 20px;
+}
